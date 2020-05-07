@@ -32,3 +32,10 @@ En la fórmula, llamamos:
           
  Dónde 𝑐 es un número real entre 0 y 1, que introduce la posibilidad de que un usuario decida no seguir ningún enlace del archivo en el que se encuentra y elija al azar un archivo entre el resto, 
  los expertos aseguran que un famoso buscador usa el valor 0.85 para la constante 𝑐.
+
+Así numeramos todas las páginas 𝐴1, 𝐴1, ... , 𝐴n; llamamos 𝑁i. al número de enlaces desde la página Ai y definimos la matriz 𝑀' dadapor 𝑚ij = 1/Nj si Aj tiene un enlace hacia 𝐴i,𝑚ij = 1/N si la página Aj no tiene enlaces hacia ninguna página y mij = 0en otro caso.
+
+## La condición anterior se puede escribir matricialmente como:
+      MX = X
+      
+con 𝑋 un vector columna de forma que cada componente Xi es el PageRank de lapágina Ai y M la matriz(1 - c)Cn + cM, donde Cn es la matriz con todas las entradas iguales a 1/N.
