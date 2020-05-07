@@ -27,7 +27,8 @@ En la fórmula, llamamos:
   - PR(A) al PageRank de la página A y
   - N(A) al número de enlaces que la página A contiene.
       
-          ![GitHub Logo](/form.png)
+       ![GitHub Logo](image/form.png)
+   
           
  Dónde 𝑐 es un número real entre 0 y 1, que introduce la posibilidad de que un usuario decida no seguir ningún enlace del archivo en el que se encuentra y elija al azar un archivo entre el resto, 
  los expertos aseguran que un famoso buscador usa el valor 0.85 para la constante 𝑐.
